@@ -25,7 +25,17 @@
 		<p class="italicise">A static webpage that displays all of my computing projects!<p>
 		<h3>Details</h3>
 		<p>I didn't really have a lot of things to display on my portfolio, so when the teacher assigned this project, I decided to make this a <span class="italicise">"base"</span> website so that I can add more stuff in the future to make it a formal portfolio. When it came to colours...the only one I liked was black and white. So I decided to make it all black and white. <span class="emphasise">Not because I'm lazy!</span></p>
-		<p>To stick to tradition, I finished the bulk of it in an afternoon.</p>
+		<p>To stick to tradition, I finished the bulk of it in an afternoon. The actual coding of the webpage is not very difficult. However, if you have some trouble hosting the page, here's some tips:</p>
+		<ul>
+  			<li>Make sure your homepage file is named <code>index.html</code>. This is the default page that loads when you visit the site.</li>
+  			<li>Do <strong>not</strong> start CSS or other file paths with a slash (<code>/</code>). Instead of <code>/static/designs.css</code>, use <code>static/designs.css</code> to keep links relative to your site folder.</li>
+  			<li>GitHub Pages URLs include your repository name as a subfolder. For example, instead of <code>https://username.github.io/projects</code>, your URLs will look like <code>https://username.github.io/webfolio/projects.html</code>. So always include your project folder and the full filename in links.</li>
+  			<li>Always include the <code>.html</code> extension at the end of page links, as GitHub Pages serves static files and needs the exact filename.</li>
+  			<li>File names are case-sensitive on GitHub Pages, so make sure your links exactly match your filenames (all lowercase is safest).</li>
+  			<li>If changes don’t appear, clear your browser cache or open the site in Incognito/Private mode to see the latest version.</li>
+		</ul>
+
+		</ol>
 		<form action="https://github.com/tan-zhen-zhou/webfolio">
 			<button style="color:blue;">Look at the website's code!</button>
 		</form>
