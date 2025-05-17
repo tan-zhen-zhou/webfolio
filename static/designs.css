@@ -1,0 +1,25 @@
+p {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-family: sans-serif;
+	border: 5px solid black;
+	padding: 10px;
+	text-align: center; 
+	
+}
+
+h2, h3 {
+	font-family: sans-serif;
+	text-decoration: underline;
+}
+
+li {
+	font-family: sans-serif;
+}
+
+table, th, td {
+	border: 3px solid black;
+	border-collapse: collapse;
+}
